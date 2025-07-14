@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/LOGO MARK.png" />
+    <title>Pemuda Express - Mitra Kami</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="index.html">
+          <img src="img/logo putih.png" alt="logo pemuda express" />
+        </a>
+      </div>
+      <!-- <a href="#" class="navbar-logo">PEMUDA <span>EXPRESS</span>.</a> -->
+
+      <div class="navbar-nav">
+        <a href="index.html">Beranda</a>
+        <a href="layanan.html">Layanan Perusahaan</a>
+        <a href="layanan.html">Layanan Driver</a>
+        <a href="mitra.html">Mitra Kami</a>
+        <a href="kontak.html">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <button id="menu"><i data-feather="menu"></i></button>
+        <!-- <a href="#" id="instagram"><i data-feather="instagram"></i> </a> -->
+        <a
+          href="https://www.instagram.com/pemudaexpress/"
+          target="_blank"
+          id="instagram"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.tiktok.com/@pemudaexpress?_t=ZS-8vlGpRwhxpQ&_r=1"
+          target="_blank"
+          id="tiktok"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
+        <a
+          href="https://pemudaexpress.blogspot.com/2025/04/profile-perusahaan-pemuda-express.html"
+          target="_blank"
+          id="blog"
+          ><i class="fa-solid fa-blog"></i
+        ></a>
+        <!-- <a href="#" id="facebook"><i data-feather="facebook"></i> </a> -->
+      </div>
+    </nav>
+
+    <!--JUDUL-->
+    <section class="page-hero" style="background-image: url('img/bg03.jpg')">
+      <div class="hero-overlay">
+        <h1 class="hero-title">BERGABUNG DENGAN KAMI</h1>
+        <p class="hero-subtitle">
+          Peluang usaha yang terbuka lebar dengan menggunakan jasa kami dengan
+          mempromosikan usaha anda seluas luasnya.
+        </p>
+      </div>
+    </section>
+
+    <!-- Mitra Kami -->
+    <section class="jajan-section" id="jajan-section">
+      <h2 class="jajan-title">TOKO MITRA <span>PEMUDA EXPRESS</span></h2>
+      <p class="subjudul">
+        Kami menyediakan berbagai macam rekomendasi makanan berat, cemilan, dan
+        jajan viral dari Mitra UMKM yang bisa diorder lewat Pemuda Express.
+        Rekomendasi lengkap tersedia di sorotan Instagram kami.
+      </p>
+      <div class="jajan-wrapper">
+        <button class="nav-btn prev" onclick="scrollJajan(-1)">❮</button>
+        <div class="jajan-track" id="jajanTrack">
+          <div class="jajan-item">
+            <img src="img/bakso.png" />
+            <p>BAKSO</p>
+          </div>
+          <div class="jajan-item">
+            <img src="img/seblak.png" />
+            <p>SEBLAK</p>
+          </div>
+          <div class="jajan-item">
+            <img src="img/batagor.png" />
+            <p>BATAGOR</p>
+          </div>
+          <div class="jajan-item">
+            <img src="img/dimsum.png" />
+            <p>DIMSUM</p>
+          </div>
+          <div class="jajan-item">
+            <img src="img/kebab.png" />
+            <p>KEBAB</p>
+          </div>
+          <div class="jajan-item">
+            <img src="img/Ayam Bakar.png" />
+            <p>AYAM BAKAR</p>
+          </div>
+          <div class="jajan-item">
+            <img src="img/Ayam Geprek.png" />
+            <p>AYAM GEPREK</p>
+          </div>
+          <div class="jajan-item">
+            <img src="img/Nasi Goreng.png" />
+            <p>NASI GORENG</p>
+          </div>
+          <div class="jajan-item">
+            <img src="img/jeruk.png" />
+            <p>JUS JERUK</p>
+          </div>
+          <div class="jajan-item">
+            <img src="img/teh.png" />
+            <p>ES TEH MANIS</p>
+          </div>
+          <div class="jajan-item">
+            <img src="img/kopi aren.png" />
+            <p>KOPI CREAMY</p>
+          </div>
+          <div class="jajan-item">
+            <img src="img/kopi hitam.png" />
+            <p>KOPI HITAM</p>
+          </div>
+          <div class="jajan-item">
+            <img src="img/cokelat.png" />
+            <p>ES COKELAT</p>
+          </div>
+          <div class="jajan-item">
+            <img src="img/matcha.png" />
+            <p>ES MATCHA</p>
+          </div>
+        </div>
+        <button class="nav-btn next" onclick="scrollJajan(1)">❯</button>
+      </div>
+      <div class="jajan-instagram">
+        <a
+          href="https://store21872.store.link"
+          target="_blank"
+          class="ig-button"
+        >
+          Kunjungi Toko Mitra Kami
+        </a>
+      </div>
+    </section>
+  </body>
+</html>
+
+<!-- TESTIMONI MITRA -->
+<section class="testimonial-section">
+  <h1 class="section-title">
+    YUK DENGAR CERITA SUKSES DARI <span>MITRA KITA</span>
+  </h1>
+  <p class="subjudul">
+    “Kami bangga berbagi cerita sukses mitra Pemuda Express sebagai bukti nyata
+    kualitas layanan dan dukungan kami. Saksikan bagaimana kemitraan kami
+    membantu mereka tumbuh dan berkembang.”
+  </p>
+  <div class="jajan-wrapper">
+    <button class="nav-btn pin prev" onclick="scrollTestimoni(-1)">❮</button>
+    <div class="jajan-track" id="testimoniTrack">
+      <!-- Card 1 -->
+      <article class="gam">
+        <div class="kartu-gambar">
+          <img src="img/7.png" alt="buah kala" />
+          <a
+            href="https://www.instagram.com/tokobuahkala?igsh=MWIyN2NoczY4dDlicA== "
+            target="_blank"
+            class="insta-btn"
+          >
+            Kunjungi Instagram
+          </a>
+        </div>
+        <p class="quote">
+          "Saking sudah percayanya sama driver Pemuda Express, pas konsumen mau
+          di kirim di jam kerja, tinggal disimpan saja di teras rumah, nanti di
+          ambil driver di jam carter"
+        </p>
+        <p class="author">- Toko Buah Kala - Mitra UMKM</p>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="gam">
+        <div class="kartu-gambar">
+          <img src="img/2.png" alt="Iskandar" />
+          <a
+            href="https://www.instagram.com/cocodonuts_?igsh=MWZxNmQ4NDZ3eGxnMQ=="
+            target="_blank"
+            class="insta-btn"
+          >
+            Kunjungi Instagram
+          </a>
+        </div>
+        <p class="quote">
+          "Alhamdulillah terbantu dengan Layanan Pemuda Express, Jazakallah koir
+          sudah bantu promosi dagangan nya, semoga pelayanannya semakin baik"
+        </p>
+        <p class="author">- CocoDonut - Mitra UMKM</p>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="gam">
+        <div class="kartu-gambar">
+          <img src="img/5.png" alt="klinik pedas" />
+          <a
+            href="https://www.instagram.com/klinikpedasanggun?igsh=MXc1MTZ3a2VwNjhiZg== "
+            target="_blank"
+            class="insta-btn"
+          >
+            Kunjungi Instagram
+          </a>
+        </div>
+        <p class="quote">
+          "Semenjak ada Pemuda Express saya bener-bener kebantu. Disaat mau
+          belanja kepasar dan disaat orderan numpuk pun Pemuda Express bisa
+          diandalkan, Makasih semoga sukses selalu"
+        </p>
+        <p class="author">- Anggun Anggraeni - Owner Klinik Pedas</p>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="gam">
+        <div class="kartu-gambar">
+          <img src="img/4.png" alt="BatoeCoffee" />
+          <a
+            href="https://www.instagram.com/batoecoffee?igsh=cm96eWl1eTg1dmZv"
+            target="_blank"
+            class="insta-btn"
+          >
+            Kunjungi Instagram
+          </a>
+        </div>
+        <p class="quote">
+          "Sejauh ini dari beragai layanan sudah memuaskan, ketersediaan
+          drrivernya juga banyak jadi tidak menunggu waktu pelayanannya, overall
+          udah oke banggget !"
+        </p>
+        <p class="author">- Seroja Nurul- Owner Batoe Coffee</p>
+      </article>
+
+      <!-- Card 5 -->
+      <article class="gam">
+        <div class="kartu-gambar">
+          <img src="img/3.png" alt="Iskandar" />
+          <a
+            href="https://www.instagram.com/berryfreshfrozen?igsh=MWQzcmZuMXhmcjdyNA=="
+            target="_blank"
+            class="insta-btn"
+          >
+            Kunjungi Instagram
+          </a>
+        </div>
+        <p class="quote">
+          "Tiada hari tanpa Pemuda Express, kirim barang dan pergi kemana saja
+          semakin mudah anti lama dan anti ribet
+        </p>
+        <p class="author">- Berry Fresh Frozen - Mitra Kuliner</p>
+      </article>
+      <!-- Card 6 -->
+      <article class="gam">
+        <div class="kartu-gambar">
+          <img src="img/8.png" alt="Ayam Kalasan Diana" />
+          <a
+            href="https://www.instagram.com/maknadir?igsh=MTZseTByMnRrM2xyaQ=="
+            target="_blank"
+            class="insta-btn"
+          >
+            Kunjungi Instagram
+          </a>
+        </div>
+        <p class="quote">
+          "Alhamdulillah pelayanannya dari WA jadi mudah dan fashrespon, selain
+          itu drivernya ramah dan cepat tanggap"
+        </p>
+        <p class="author">- Ayam Kalasan Diana - Mitra Kuliner</p>
+      </article>
+    </div>
+    <button class="nav-btn pin next" onclick="scrollTestimoni(1)">❯</button>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-left">
+      <h3><span class="logo"></span> PEMUDA EXPRESS</h3>
+      <p>Memudahkan aktivitas anda</p>
+      <div class="social-icons">
+        <a
+          href="https://www.instagram.com/pemudaexpress/"
+          target="_blank"
+          id="instagram"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.tiktok.com/@pemudaexpress?_t=ZS-8vlGpRwhxpQ&_r=1"
+          target="_blank"
+          id="tiktok"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
+        <a
+          href="https://pemudaexpress.blogspot.com/2025/04/profile-perusahaan-pemuda-express.html"
+          target="_blank"
+          id="blog"
+          ><i class="fa-solid fa-blog"></i
+        ></a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h4>Perusahaan Kami</h4>
+        <ul>
+          <li><a href="index.html">Roadmap</a></li>
+          <li><a href="tentang.html">Visi Misi</a></li>
+          <li><a href="layanan.html">Layanan</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Pelayanan Kami</h4>
+        <ul>
+          <li><a href="mitra.html">Mitra kami</a></li>
+          <li><a href="kontak.html">informasi kontak</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Media Sosial Kami</h4>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/pemudaexpress/"
+              target="_blank"
+              id="instagram"
+              >IG: @pemudaexpress</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.tiktok.com/@pemudaexpress?_t=ZS-8vlGpRwhxpQ&_r=1"
+              target="_blank"
+              id="tiktok"
+              >tiktok: pemudaekspress</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://pemudaexpress.blogspot.com/2025/04/profile-perusahaan-pemuda-express.html"
+              target="_blank"
+              id="blog"
+              >Blogg: pemudaexpress</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontak Kami</h4>
+        <ul>
+          <li><a>+62 838-2146-9128</a></li>
+          <li><a>pemudaexpress@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; Copyright by Pemuda Express.2025.</p>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+  feather.replace();
+</script>
