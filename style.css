@@ -1759,7 +1759,6 @@ body {
   color: #7f8c8d;
 }
 
-/* ORDER WEBSITE */
 /* Daftar driver */
 .order-driver {
   background: #f9f9f9;
@@ -1807,7 +1806,7 @@ body {
 }
 
 .steps .step:nth-child(n + 4) {
-  width: calc(50% - 20px); /* Baris kedua 2 kolom */
+  width: ; /* Baris kedua 2 kolom */
 }
 
 .step:hover {
@@ -1963,7 +1962,7 @@ body {
 /* peta */
 .Contact .row form {
   flex: 1 1 45rem;
-  padding: 3rem 2rem;
+  padding: 1rem 1rem;
   text-align: center;
 }
 
@@ -2551,3 +2550,90 @@ footer .fa-solid:hover {
     position: relative;
   }
 }
+
+/* TIM PEMUDA EXPRESS */
+.tim-section {
+  padding: 4rem 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.tim-judul {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-third);
+  margin-bottom: 2rem;
+  margin-top: 3.5rem;
+}
+
+.tim-judul span {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+.tim-section .tim-subjudul {
+  text-align: center;
+  max-width: 50rem;
+  margin: auto;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 16px;
+  color: black;
+  padding-bottom: 3rem;
+}
+.container-tim {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.tim-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tim-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: 250px;
+}
+
+.tim-card:hover {
+  transform: translateY(-8px);
+}
+
+.tim-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.tim-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+
+.tim-card .role {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Responsive untuk HP */
+@media (max-width: 768px) {
+  .tim-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tim-card {
+    width: 90%;
+  }
+}
+
